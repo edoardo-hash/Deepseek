@@ -1,6 +1,6 @@
 # Invenio Homes
 
-**Live:** Vercel project `deepseek`  
+**Live:** <https://deepseek-one-phi.vercel.app/>  
 **GitHub:** <https://github.com/edoardo-hash/Deepseek>  
 **Studio:** runs locally (see below)
 
@@ -177,7 +177,7 @@ The type is self-hosted, so there is no Google Fonts request. The grain texture 
 The site is already connected:
 
 - **GitHub:** <https://github.com/edoardo-hash/Deepseek>
-- **Vercel:** project `deepseek`, production branch `main`
+- **Vercel:** <https://deepseek-one-phi.vercel.app/> (project `deepseek`, production branch `main`)
 - The Vercel project is set to **Other**, with the build command skipped and **Output Directory = `dist`**. The `dist/` folder is committed, so every push to `main` deploys exactly what the Studio built.
 - The public URL is assigned by Vercel when the project is first deployed.
 
