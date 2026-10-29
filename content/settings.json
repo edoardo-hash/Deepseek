@@ -132,5 +132,11 @@
     "description": "A carefully selected, fully licensed collection of villas in Ibiza, Formentera, Mykonos and Bali — with a platform for agents and owners, and a team on the ground.",
     "ogImage": "/assets/img/hero-villa-dusk-1600.jpg",
     "themeColor": "#F2EDE3"
+  },
+  "compare": {
+    "enabled": true,
+    "thisLabel": "Deepseek",
+    "otherLabel": "Web",
+    "otherUrl": "https://inveniohomes-web.vercel.app"
   }
 }

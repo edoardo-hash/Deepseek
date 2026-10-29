@@ -131,6 +131,23 @@
   </div>
 </footer>
 
+<div class="compare" data-compare aria-label="Compare site versions" role="group">
+  <span class="compare-label">Compare</span>
+  <span class="compare-opt is-on" aria-current="true">Deepseek</span>
+  <a class="compare-opt" href="https://inveniohomes-web.vercel.app/" data-compare-link data-no-transition>Web</a>
+</div>
+<script>
+(function () {
+  var a = document.querySelector("[data-compare-link]");
+  if (!a) return;
+  var base = "https://inveniohomes-web.vercel.app";
+  // Pages on this site -> matching page on the other site (unmatched -> its home).
+  var map = { "/about/": "/about", "/owners/": "/owners", "/platform/": "/the-platform" };
+  var p = location.pathname, target = map[p];
+  if (!target && /^\/destinations\/[a-z-]+\/$/.test(p)) target = p.replace(/\/$/, "");
+  a.href = base + (target || "/");
+})();
+</script>
 <script src="/assets/js/vendor/gsap.min.js" defer></script>
 <script src="/assets/js/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/js/vendor/SplitText.min.js" defer></script>

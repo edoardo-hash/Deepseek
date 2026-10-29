@@ -320,6 +320,31 @@ def footer() -> str:
 """
 
 
+def compare_switch() -> str:
+    """Floating switch to jump to the same page on the other site build."""
+    cfg = SETTINGS.get("compare") or {}
+    if not cfg.get("enabled") or not cfg.get("otherUrl"):
+        return ""
+    other = str(cfg["otherUrl"]).rstrip("/")
+    return f"""<div class="compare" data-compare aria-label="Compare site versions" role="group">
+  <span class="compare-label">Compare</span>
+  <span class="compare-opt is-on" aria-current="true">{e(cfg.get("thisLabel", "This site"))}</span>
+  <a class="compare-opt" href="{e(other)}/" data-compare-link data-no-transition>{e(cfg.get("otherLabel", "Other site"))}</a>
+</div>
+<script>
+(function () {{
+  var a = document.querySelector("[data-compare-link]");
+  if (!a) return;
+  var base = {json.dumps(other)};
+  // Pages on this site -> matching page on the other site (unmatched -> its home).
+  var map = {{ "/about/": "/about", "/owners/": "/owners", "/platform/": "/the-platform" }};
+  var p = location.pathname, target = map[p];
+  if (!target && /^\\/destinations\\/[a-z-]+\\/$/.test(p)) target = p.replace(/\\/$/, "");
+  a.href = base + (target || "/");
+}})();
+</script>"""
+
+
 def page(
     *,
     title: str,
@@ -387,6 +412,7 @@ def page(
 {body}
 </main>
 {footer()}
+{compare_switch()}
 <script src="/assets/js/vendor/gsap.min.js" defer></script>
 <script src="/assets/js/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/js/vendor/SplitText.min.js" defer></script>
