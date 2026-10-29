@@ -11,8 +11,8 @@ If you add photography, add the credit here and on `/credits/`.
 
 ## Type
 
-- **Fraunces** — Undercase Type, SIL Open Font License.
-- **Hanken Grotesk** — Alfredo Marco Pradil, SIL Open Font License.
+- **Cormorant Garamond** — Christian Thalmann, SIL Open Font License.
+- **Inter** — Rasmus Andersson, SIL Open Font License.
 
 Both are self-hosted in `assets/fonts/`.
 

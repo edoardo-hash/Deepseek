@@ -7,22 +7,22 @@
 
 /* ---------- Fonts ---------- */
 @font-face {
-  font-family: "Fraunces";
-  src: url("/assets/fonts/fraunces-var.woff2") format("woff2");
-  font-weight: 100 900;
+  font-family: "Cormorant Garamond";
+  src: url("/assets/fonts/cormorant-garamond-var.woff2") format("woff2");
+  font-weight: 300 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Fraunces";
-  src: url("/assets/fonts/fraunces-var-italic.woff2") format("woff2");
-  font-weight: 100 900;
+  font-family: "Cormorant Garamond";
+  src: url("/assets/fonts/cormorant-garamond-var-italic.woff2") format("woff2");
+  font-weight: 300 700;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Hanken Grotesk";
-  src: url("/assets/fonts/hanken-grotesk-300.woff2") format("woff2");
+  font-family: "Inter";
+  src: url("/assets/fonts/inter-var.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -46,8 +46,8 @@
   --line: rgba(23, 32, 31, 0.16);
   --line-soft: rgba(23, 32, 31, 0.09);
   --line-light: rgba(244, 243, 238, 0.22);
-  --display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-  --sans: "Hanken Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --max: 1380px;
   --gutter: clamp(20px, 4.2vw, 68px);
   --sec: clamp(78px, 10vw, 150px);
@@ -170,11 +170,10 @@ button {
 /* ---------- Type ---------- */
 .display {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   line-height: 0.98;
   letter-spacing: -0.028em;
-  font-variation-settings: "opsz" 96, "SOFT" 30;
-  text-wrap: balance;
+    text-wrap: balance;
 }
 h1.display,
 h2.display {
@@ -197,7 +196,7 @@ h2.display--hero,
 .statement em,
 .big-quote em {
   font-style: italic;
-  font-weight: 300;
+  font-weight: 500;
 }
 .display--xl em {
   letter-spacing: -0.03em;
@@ -206,7 +205,7 @@ h2.display--hero,
 .eyebrow {
   font-family: var(--sans);
   font-size: 10px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--green);
@@ -239,7 +238,7 @@ h2.display--hero,
 
 .statement {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: clamp(26px, 3.3vw, 49px);
   line-height: 1.1;
   letter-spacing: -0.025em;
@@ -290,7 +289,7 @@ h2.display--hero,
   background: var(--btn-bg);
   color: var(--btn-fg);
   font-size: 10.5px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   line-height: 1;
@@ -362,7 +361,7 @@ h2.display--hero,
   align-items: center;
   gap: 10px;
   font-size: 10.5px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   padding-bottom: 4px;
@@ -429,7 +428,7 @@ h2.display--hero,
 .nav-desktop a {
   position: relative;
   font-size: 10.5px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.17em;
   text-transform: uppercase;
   padding: 6px 0;
@@ -465,7 +464,7 @@ h2.display--hero,
 }
 .head-signin {
   font-size: 10.5px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.17em;
   text-transform: uppercase;
   opacity: 0.82;
@@ -613,7 +612,7 @@ body.nav-open .menu-btn span:last-child {
   border-bottom: 1px solid rgba(242, 237, 227, 0.12);
   font-family: var(--display);
   font-size: clamp(40px, 5.6vw, 78px);
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 1;
   transition: color 0.35s var(--ease), padding-left 0.5s var(--ease);
@@ -1032,7 +1031,7 @@ body.is-loaded .loader {
 .marquee-track span {
   padding-right: 4rem;
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: clamp(40px, 6.4vw, 96px);
   line-height: 1;
   letter-spacing: -0.03em;
@@ -1135,7 +1134,7 @@ body.is-loaded .loader {
 }
 .coll-name {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: clamp(24px, 2.5vw, 36px);
   letter-spacing: -0.025em;
   line-height: 1;
@@ -1253,7 +1252,7 @@ body.is-loaded .loader {
 }
 .feature-list h3 {
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -1338,7 +1337,7 @@ body.is-loaded .loader {
 }
 .stat-num {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: clamp(58px, 8vw, 124px);
   line-height: 0.85;
   letter-spacing: -0.045em;
@@ -1436,7 +1435,7 @@ body.is-loaded .loader {
 .dest-name {
   font-family: var(--display);
   font-size: clamp(36px, 4.4vw, 66px);
-  font-weight: 300;
+  font-weight: 500;
   line-height: 0.95;
   letter-spacing: -0.035em;
 }
@@ -1539,7 +1538,7 @@ body.is-loaded .loader {
 }
 .quote blockquote {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: clamp(21px, 2vw, 29px);
   line-height: 1.24;
   letter-spacing: -0.018em;
@@ -1586,7 +1585,7 @@ body.is-loaded .loader {
 }
 .big-quote blockquote {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: clamp(28px, 4.4vw, 62px);
   line-height: 1.08;
   letter-spacing: -0.028em;
@@ -1694,7 +1693,7 @@ body.is-loaded .loader {
 }
 .foot-col h3 {
   font-size: 8.5px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--gold-soft);
@@ -1982,7 +1981,7 @@ body.is-loaded .loader {
 }
 .villa-card h3 {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: clamp(26px, 2.8vw, 40px);
   letter-spacing: -0.028em;
   line-height: 1;
@@ -2185,7 +2184,7 @@ body.is-loaded .loader {
 .villa-meta h3,
 .villa-location h3 {
   font-family: var(--display);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 24px;
   letter-spacing: -0.02em;
   margin-bottom: 16px;
@@ -2431,7 +2430,7 @@ body.is-loaded .loader {
 .dest-highlights h3 {
   font-family: var(--display);
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 12px 0 8px;
 }
 .dest-highlights p {
@@ -2520,7 +2519,7 @@ body.is-loaded .loader {
 .value-card h3 {
   font-family: var(--display);
   font-size: clamp(22px, 2vw, 28px);
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.1;
   margin: 18px 0 12px;
   letter-spacing: -0.02em;
@@ -2559,7 +2558,7 @@ body.is-loaded .loader {
 .step h3 {
   font-family: var(--display);
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 22px 0 10px;
 }
 .step p {
@@ -2589,7 +2588,7 @@ body.is-loaded .loader {
   gap: 20px;
   font-family: var(--display);
   font-size: clamp(19px, 1.7vw, 24px);
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -0.015em;
 }
 .faq summary::-webkit-details-marker {
@@ -2809,7 +2808,7 @@ body.is-loaded .loader {
 }
 .dash-info strong {
   font-family: var(--display);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 11px;
   white-space: nowrap;
 }
@@ -2876,7 +2875,7 @@ body.is-loaded .loader {
 .feature-grid h3 {
   font-family: var(--display);
   font-size: 27px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 26px 0 10px;
 }
 .feature-grid p {
@@ -2939,7 +2938,7 @@ body.is-loaded .loader {
   border-top: 1px solid var(--line);
   font-family: var(--display);
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.02em;
   max-width: 34ch;
@@ -2951,7 +2950,7 @@ body.is-loaded .loader {
 }
 .team-group-title {
   font-size: 9px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--muted);
@@ -2986,7 +2985,7 @@ body.is-loaded .loader {
 .team-name {
   font-family: var(--display);
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -0.015em;
 }
 .team-role {
@@ -3041,7 +3040,7 @@ body.is-loaded .loader {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--green);
-  font-weight: 500;
+  font-weight: 600;
 }
 .office-list small {
   font-size: 11.5px;
@@ -3117,7 +3116,7 @@ body.is-loaded .loader {
 .contact-block h3 {
   font-family: var(--display);
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 18px;
 }
 .contact-block dl {
@@ -3176,7 +3175,7 @@ body.is-loaded .loader {
 .prose--legal h2 {
   font-family: var(--display);
   font-size: 26px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 12px;
 }
 .prose--legal p {
@@ -4032,8 +4031,8 @@ body::after {
 .hero .display--hero {
   color: var(--ink);
   max-width: 17ch;
-  font-size: clamp(42px, 6.4vw, 104px);
-  line-height: 0.96;
+  font-size: clamp(46px, 7vw, 112px);
+  line-height: 1;
 }
 .hero .display--hero em {
   color: var(--green);
@@ -4242,4 +4241,34 @@ a.compare-opt:hover, a.compare-opt:focus-visible { background: rgba(251, 250, 24
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   box-shadow: 0 1px 0 var(--line-soft);
+}
+
+/* ---------- Type pass: Cormorant Garamond + Inter ---------- */
+/* Cormorant has a small x-height, so display sizes get a little more room. */
+h1.display,
+h2.display {
+  font-size: clamp(38px, 4.8vw, 72px);
+}
+.display--xl {
+  font-size: clamp(46px, 7vw, 104px);
+}
+.display--hero,
+h1.display--hero {
+  font-size: clamp(50px, 8.2vw, 136px);
+  letter-spacing: -0.02em;
+}
+.display,
+.statement,
+.big-quote {
+  letter-spacing: -0.012em;
+  line-height: 1.02;
+}
+.statement {
+  font-size: clamp(28px, 3.6vw, 54px);
+}
+.lede {
+  font-size: clamp(15.5px, 1.3vw, 18px);
+}
+body {
+  font-size: 15.5px;
 }

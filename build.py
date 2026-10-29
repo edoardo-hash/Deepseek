@@ -1558,7 +1558,7 @@ def build_credits() -> str:
       </section>
       <section id="type">
         <h2>Type</h2>
-        <p><a href="https://fonts.google.com/specimen/Fraunces" target="_blank" rel="noopener">Fraunces</a> by Undercase Type, and <a href="https://fonts.google.com/specimen/Hanken+Grotesk" target="_blank" rel="noopener">Hanken Grotesk</a> by Alfredo Marco Pradil — both under the SIL Open Font License. Self-hosted here so the site does not call Google Fonts.</p>
+        <p><a href="https://fonts.google.com/specimen/Cormorant+Garamond" target="_blank" rel="noopener">Cormorant Garamond</a> by Christian Thalmann, and <a href="https://fonts.google.com/specimen/Inter" target="_blank" rel="noopener">Inter</a> by Rasmus Andersson — both under the SIL Open Font License. Self-hosted here so the site does not call Google Fonts.</p>
       </section>
       <section id="code">
         <h2>Code</h2>
