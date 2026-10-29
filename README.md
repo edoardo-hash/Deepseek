@@ -110,7 +110,7 @@ invenio-homes/
 │   ├── css/site.css          the design system + responsive rules
 │   ├── js/site.js            motion + interactions
 │   ├── js/vendor/            GSAP, ScrollTrigger, SplitText, Lenis
-│   ├── fonts/                self-hosted Newsreader + Hanken Grotesk
+│   ├── fonts/                self-hosted Cormorant Garamond + Inter
 │   └── img/                  photography, grain, logos, uploads/
 ├── studio/
 │   ├── index.html            editor shell
@@ -151,7 +151,7 @@ The build reads `content/` and writes `dist/`. It also copies `assets/` into `di
 
 ## Design & motion notes
 
-**Ses Salines.** Bone paper `#F2EDE3`, ink `#1C221D`, seagrass `#244635`, salt gold `#B08A55`; Newsreader Light for display and Hanken Grotesk for text. Square photography, hairline rules, numbered catalogue rows, a seagrass numbers band and a private-offer register.
+**Ses Salines.** Bone paper `#F2EDE3`, ink `#1C221D`, seagrass `#244635`, salt gold `#B08A55`; Cormorant Garamond Light for display and Inter for text. Square photography, hairline rules, numbered catalogue rows, a seagrass numbers band and a private-offer register.
 
 The motion follows the current site's grammar rather than copying its markup:
 
@@ -280,7 +280,7 @@ The `screenshots/` folder contains desktop and mobile captures used during QA, i
 See [`/credits/`](dist/credits/index.html) in the running site, or `CREDITS.md`.
 
 - Photography: Invenio archive and handoff pack; Mykonos by René Hourdry (CC BY-SA 4.0); Bali via Unsplash.
-- Type: Newsreader and Hanken Grotesk, SIL Open Font License.
+- Type: Cormorant Garamond and Inter, SIL Open Font License.
 - Motion: GSAP (ScrollTrigger, SplitText) and Lenis (MIT).
 - Design and build: Ses Salines direction, 2026.
 
