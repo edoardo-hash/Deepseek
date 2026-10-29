@@ -321,25 +321,29 @@ def footer() -> str:
 
 
 def compare_switch() -> str:
-    """Floating switch to jump to the same page on the other site build."""
+    """Floating switch to the same page on the other site builds (temporary)."""
     cfg = SETTINGS.get("compare") or {}
-    if not cfg.get("enabled") or not cfg.get("otherUrl"):
+    sites = cfg.get("sites") or []
+    if not cfg.get("enabled") or not sites:
         return ""
-    other = str(cfg["otherUrl"]).rstrip("/")
+    opts = "".join(
+        f'<a class="compare-opt" href="{e(str(sv["url"]).rstrip("/"))}/" data-compare-link data-no-transition>{e(sv["label"])}</a>'
+        for sv in sites
+    )
+    payload = json.dumps([{"url": str(sv["url"]).rstrip("/"), "map": sv.get("map", "same")} for sv in sites])
     return f"""<div class="compare" data-compare aria-label="Compare site versions" role="group">
   <span class="compare-label">Compare</span>
+  {opts}
   <span class="compare-opt is-on" aria-current="true">{e(cfg.get("thisLabel", "This site"))}</span>
-  <a class="compare-opt" href="{e(other)}/" data-compare-link data-no-transition>{e(cfg.get("otherLabel", "Other site"))}</a>
 </div>
 <script>
 (function () {{
-  var a = document.querySelector("[data-compare-link]");
-  if (!a) return;
-  var base = {json.dumps(other)};
-  // Pages on this site -> matching page on the other site (unmatched -> its home).
-  var map = {{ "/about/": "/about", "/owners/": "/owners", "/platform/": "/the-platform" }};
-  var p = location.pathname, target = map[p];
-  a.href = base + (target || "/");
+  var sites = {payload}, links = document.querySelectorAll("[data-compare-link]"), p = location.pathname;
+  for (var i = 0; i < links.length && i < sites.length; i++) {{
+    var s = sites[i], t;
+    if (s.map === "same") t = p; else t = s.map[p] || "/";
+    links[i].href = s.url + t;
+  }}
 }})();
 </script>"""
 

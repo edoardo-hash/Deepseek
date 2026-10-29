@@ -136,7 +136,21 @@
   "compare": {
     "enabled": true,
     "thisLabel": "Deepseek",
-    "otherLabel": "Web",
-    "otherUrl": "https://inveniohomes-web.vercel.app"
+    "sites": [
+      {
+        "label": "Web",
+        "url": "https://inveniohomes-web.vercel.app",
+        "map": {
+          "/about/": "/about",
+          "/owners/": "/owners",
+          "/platform/": "/the-platform"
+        }
+      },
+      {
+        "label": "Calacatta",
+        "url": "https://invenio-calacatta.vercel.app",
+        "map": "same"
+      }
+    ]
   }
 }
