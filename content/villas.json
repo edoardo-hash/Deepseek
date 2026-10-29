@@ -1,0 +1,923 @@
+[
+  {
+    "slug": "can-nemo",
+    "name": "Can Nemo",
+    "destination": "ibiza",
+    "location": "Cap Martinet, Ibiza",
+    "tag": "Invenio Exclusive",
+    "bedrooms": 8,
+    "baths": 7,
+    "sleeps": 16,
+    "licence": "ETV-1461-E",
+    "from": 24000,
+    "hero": "hero-villa-dusk",
+    "image": "villa-can-nemo",
+    "gallery": [
+      "villa-can-nemo",
+      "hero-villa-dusk",
+      "interior-lounge",
+      "owners-dining"
+    ],
+    "short": "A quiet, whitewashed house above the sea — long pool, broad terraces, and the sun going down behind the pines.",
+    "description": [
+      "Can Nemo sits at the end of a private lane in Cap Martinet, screened by pines and bougainvillea. The main floor opens completely to a broad terrace, the pool runs along the west side of the house, and every bedroom has its own way out to the garden.",
+      "The kitchen is properly equipped for a house that sleeps sixteen, with a second outdoor kitchen by the pool. Housekeeping comes daily; a chef, a driver and a nanny can be arranged with a little notice."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "18 m"
+      },
+      {
+        "label": "Sea views",
+        "value": "West"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Chef on request",
+        "value": "On request"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 18"
+      },
+      {
+        "label": "Gated & alarmed",
+        "value": "Yes"
+      },
+      {
+        "label": "Parking",
+        "value": "5 cars"
+      },
+      {
+        "label": "Concierge",
+        "value": "24 h"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights, Saturday to Saturday"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€3,000, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "Talamanca beach",
+        "value": "6 minutes"
+      },
+      {
+        "label": "Ibiza town",
+        "value": "10 minutes"
+      },
+      {
+        "label": "Ibiza airport",
+        "value": "16 minutes"
+      },
+      {
+        "label": "Cala Olivera",
+        "value": "12 minutes"
+      },
+      {
+        "label": "Nearest restaurant",
+        "value": "4 minutes"
+      }
+    ],
+    "coordinates": "38°54′N 1°27′E",
+    "featured": true
+  },
+  {
+    "slug": "the-wave",
+    "name": "The Wave Ibiza",
+    "destination": "ibiza",
+    "location": "S'Estanyol, Ibiza",
+    "tag": "",
+    "bedrooms": 5,
+    "baths": 5,
+    "sleeps": 10,
+    "licence": "ETV2128E",
+    "from": 14500,
+    "hero": "hero-villa-pool",
+    "image": "villa-wave",
+    "gallery": [
+      "villa-wave",
+      "hero-villa-pool",
+      "interior-lounge",
+      "owners-dining"
+    ],
+    "short": "A low, modern house that follows the curve of the coast — all glass, pale stone and water.",
+    "description": [
+      "The Wave is built into the hillside above S'Estanyol, with a long living room that opens to a pool terrace on one side and a shaded garden on the other. The architecture is restrained; the view does the talking.",
+      "Five bedrooms, all en suite, are arranged for privacy: two on the upper floor, three at garden level. The kitchen is a serious one, and the outdoor table seats twelve."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "Heated"
+      },
+      {
+        "label": "Sea views",
+        "value": "South"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 12"
+      },
+      {
+        "label": "Music system",
+        "value": "Sonos"
+      },
+      {
+        "label": "Parking",
+        "value": "3 cars"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€2,000, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "S'Estanyol beach",
+        "value": "3 minutes"
+      },
+      {
+        "label": "Ibiza town",
+        "value": "8 minutes"
+      },
+      {
+        "label": "Ibiza airport",
+        "value": "12 minutes"
+      },
+      {
+        "label": "Cala Jondal",
+        "value": "14 minutes"
+      }
+    ],
+    "coordinates": "38°54′N 1°26′E",
+    "featured": true
+  },
+  {
+    "slug": "villa-marielle",
+    "name": "Villa Marielle",
+    "destination": "ibiza",
+    "location": "San José, Ibiza",
+    "tag": "",
+    "bedrooms": 8,
+    "baths": 8,
+    "sleeps": 16,
+    "licence": "ETV-2077-E",
+    "from": 18000,
+    "hero": "hero-villa-pool",
+    "image": "villa-marielle",
+    "gallery": [
+      "villa-marielle",
+      "hero-villa-pool",
+      "owners-dining",
+      "interior-lounge"
+    ],
+    "short": "An established family estate in the hills above San José — mature gardens, a long lawn and a pool that catches the last light.",
+    "description": [
+      "Villa Marielle is the kind of house that has been quietly improved for thirty years: thick walls, deep terraces, and a garden that has had time to grow. The main house holds six bedrooms; a separate casita sleeps four more.",
+      "There is a proper lawn for children, a shaded pergola for lunch, and a pool terrace that faces west. It is five minutes from San José, and fifteen from the coast."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "16 m"
+      },
+      {
+        "label": "Mature garden",
+        "value": "3,500 m²"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Guest casita",
+        "value": "Sleeps 4"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 16"
+      },
+      {
+        "label": "Parking",
+        "value": "4 cars"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€2,500, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "San José village",
+        "value": "5 minutes"
+      },
+      {
+        "label": "Cala Vadella",
+        "value": "14 minutes"
+      },
+      {
+        "label": "Ibiza town",
+        "value": "18 minutes"
+      },
+      {
+        "label": "Ibiza airport",
+        "value": "15 minutes"
+      }
+    ],
+    "coordinates": "38°55′N 1°17′E",
+    "featured": true
+  },
+  {
+    "slug": "belantara",
+    "name": "Belantara",
+    "destination": "ibiza",
+    "location": "San Antonio, Ibiza",
+    "tag": "Recommended",
+    "bedrooms": 6,
+    "baths": 3,
+    "sleeps": 13,
+    "licence": "ETV-0972-E",
+    "from": 14500,
+    "hero": "hero-villa-dusk",
+    "image": "hero-villa-dusk",
+    "gallery": [
+      "hero-villa-dusk",
+      "villa-can-nemo",
+      "interior-lounge",
+      "owners-dining"
+    ],
+    "short": "A secluded six-bedroom house above the bay, with a long pool, shaded terraces and the sun going down behind the pines.",
+    "description": [
+      "Belantara sits on a quiet hillside above San Antonio, screened by pines and oleander. The main floor opens completely to a broad terrace, the pool runs along the west side of the house, and every bedroom has its own way out to the garden.",
+      "Housekeeping comes daily; a chef, a driver and a nanny can be arranged with a little notice."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "12 m"
+      },
+      {
+        "label": "Sea views",
+        "value": "West"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Chef on request",
+        "value": "On request"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 14"
+      },
+      {
+        "label": "Parking",
+        "value": "4 cars"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights, Saturday to Saturday"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€2,000, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "Cala Gració",
+        "value": "8 minutes"
+      },
+      {
+        "label": "San Antonio",
+        "value": "12 minutes"
+      },
+      {
+        "label": "Ibiza airport",
+        "value": "22 minutes"
+      },
+      {
+        "label": "Ibiza town",
+        "value": "25 minutes"
+      }
+    ],
+    "coordinates": "38°59′N 1°18′E",
+    "featured": true
+  },
+  {
+    "slug": "can-ariel",
+    "name": "Can Ariel",
+    "destination": "ibiza",
+    "location": "San Rafael, Ibiza",
+    "tag": "",
+    "bedrooms": 6,
+    "baths": 7,
+    "sleeps": 12,
+    "licence": "ETV-1794-EIF",
+    "from": 12800,
+    "hero": "hero-villa-pool",
+    "image": "villa-marielle",
+    "gallery": [
+      "hero-villa-pool",
+      "villa-marielle",
+      "interior-lounge",
+      "owners-dining"
+    ],
+    "short": "A mature garden estate, shaded dining and a pool that catches the last light — ten minutes from Ibiza town.",
+    "description": [
+      "Can Ariel is an established house with a generous garden and a deep sense of privacy. The living spaces are cool and open, with several places to eat outside depending on the time of day.",
+      "Six bedrooms, all with their own bathrooms, make it work for groups of friends as easily as families."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "14 m"
+      },
+      {
+        "label": "Garden",
+        "value": "2,800 m²"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Outdoor kitchen",
+        "value": "Yes"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 12"
+      },
+      {
+        "label": "Parking",
+        "value": "3 cars"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€2,000, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "San Rafael",
+        "value": "5 minutes"
+      },
+      {
+        "label": "Ibiza town",
+        "value": "10 minutes"
+      },
+      {
+        "label": "Ibiza airport",
+        "value": "12 minutes"
+      }
+    ],
+    "coordinates": "38°57′N 1°24′E",
+    "featured": true
+  },
+  {
+    "slug": "can-beso",
+    "name": "Can Beso",
+    "destination": "ibiza",
+    "location": "San José, Ibiza",
+    "tag": "",
+    "bedrooms": 6,
+    "baths": 6,
+    "sleeps": 12,
+    "licence": "ETV-1191-E",
+    "from": 11200,
+    "hero": "hero-villa-pool",
+    "image": "owners-dining",
+    "gallery": [
+      "owners-dining",
+      "villa-can-nemo",
+      "hero-villa-pool",
+      "interior-lounge"
+    ],
+    "short": "Palm-lined and close to the coast, made for long families and slow mornings.",
+    "description": [
+      "Can Beso is a relaxed, generous house a few minutes from the coast at San José. The garden is full of palms, the pool is warm, and the outdoor table is where most of the day happens.",
+      "Six bedrooms, a large kitchen and a shaded sitting room make it an easy house for two families or a group of friends."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "12 m"
+      },
+      {
+        "label": "Palm garden",
+        "value": "2,000 m²"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 12"
+      },
+      {
+        "label": "Parking",
+        "value": "4 cars"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€1,500, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "San José village",
+        "value": "6 minutes"
+      },
+      {
+        "label": "Cala Vadella",
+        "value": "12 minutes"
+      },
+      {
+        "label": "Ibiza airport",
+        "value": "16 minutes"
+      }
+    ],
+    "coordinates": "38°55′N 1°17′E",
+    "featured": true
+  },
+  {
+    "slug": "can-talaia",
+    "name": "Can Talaia",
+    "destination": "formentera",
+    "location": "Es Pujols, Formentera",
+    "tag": "New",
+    "bedrooms": 5,
+    "baths": 4,
+    "sleeps": 10,
+    "licence": "Licence on request",
+    "from": 9800,
+    "hero": "villa-marielle",
+    "image": "cove",
+    "gallery": [
+      "cove",
+      "villa-marielle",
+      "interior-lounge",
+      "owners-dining"
+    ],
+    "short": "A salt-bleached house a short walk from the water, with a garden of juniper and a pool the colour of the sea.",
+    "description": [
+      "Can Talaia is a low, white house on the edge of Es Pujols, arranged around a courtyard and a pool. The interiors are simple and cool; the terraces are where the house really lives.",
+      "Five bedrooms, a long kitchen and a shaded outdoor table make it an easy base for a Formentera summer."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "10 m"
+      },
+      {
+        "label": "Walk to beach",
+        "value": "6 minutes"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Yes"
+      },
+      {
+        "label": "Housekeeping",
+        "value": "Twice weekly"
+      },
+      {
+        "label": "Bicycles",
+        "value": "4 included"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 10"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€1,500, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "Es Pujols",
+        "value": "6 minutes"
+      },
+      {
+        "label": "Ses Illetes",
+        "value": "12 minutes"
+      },
+      {
+        "label": "La Savina port",
+        "value": "10 minutes"
+      }
+    ],
+    "coordinates": "38°43′N 1°27′E",
+    "featured": true
+  },
+  {
+    "slug": "aegean-house",
+    "name": "Aegean House",
+    "destination": "mykonos",
+    "location": "Agios Lazaros, Mykonos",
+    "tag": "New",
+    "bedrooms": 6,
+    "baths": 6,
+    "sleeps": 12,
+    "licence": "Licence on request",
+    "from": 16500,
+    "hero": "villa-marielle",
+    "image": "villa-marielle",
+    "gallery": [
+      "villa-marielle",
+      "mykonos",
+      "interior-lounge",
+      "owners-dining"
+    ],
+    "short": "Whitewashed Cycladic lines, a terrace built for sunsets, and the Aegean at the end of the garden.",
+    "description": [
+      "Aegean House sits above Agios Lazaros with an uninterrupted view west. The architecture is classic Mykonos — thick white walls, rounded edges, shaded courtyards — with interiors kept deliberately quiet.",
+      "Six bedrooms, a large pool and a terrace that takes the sunset seriously. The town is fifteen minutes away; the beach clubs are closer."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "Infinity"
+      },
+      {
+        "label": "Sea views",
+        "value": "West"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Outdoor dining",
+        "value": "Seats 12"
+      },
+      {
+        "label": "Parking",
+        "value": "4 cars"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 16:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 10:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "7 nights"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€3,000, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "Mykonos town",
+        "value": "15 minutes"
+      },
+      {
+        "label": "Psarou beach",
+        "value": "8 minutes"
+      },
+      {
+        "label": "Mykonos airport",
+        "value": "12 minutes"
+      }
+    ],
+    "coordinates": "37°24′N 25°20′E",
+    "featured": true
+  },
+  {
+    "slug": "villa-sawah",
+    "name": "Villa Sawah",
+    "destination": "bali",
+    "location": "Canggu, Bali",
+    "tag": "New",
+    "bedrooms": 5,
+    "baths": 5,
+    "sleeps": 10,
+    "licence": "Licence on request",
+    "from": 7400,
+    "hero": "interior-lounge",
+    "image": "interior-lounge",
+    "gallery": [
+      "bali",
+      "interior-lounge",
+      "owners-dining",
+      "hero-villa-pool"
+    ],
+    "short": "A tropical house at the edge of the rice fields — open pavilions, a long pool and a garden that never stops growing.",
+    "description": [
+      "Villa Sawah is arranged as a series of pavilions around a central pool and garden. The living room opens on both sides, the kitchen is staffed on request, and the rice fields begin at the end of the lawn.",
+      "Five bedrooms, all with garden bathrooms, and enough shade to make the middle of the day feel optional."
+    ],
+    "amenities": [
+      {
+        "label": "Private pool",
+        "value": "14 m"
+      },
+      {
+        "label": "Rice-field views",
+        "value": "West"
+      },
+      {
+        "label": "Air conditioning",
+        "value": "All rooms"
+      },
+      {
+        "label": "Wi-Fi",
+        "value": "Fibre"
+      },
+      {
+        "label": "Daily housekeeping",
+        "value": "Included"
+      },
+      {
+        "label": "Cook on request",
+        "value": "Yes"
+      },
+      {
+        "label": "Scooters",
+        "value": "On request"
+      }
+    ],
+    "stay": [
+      {
+        "label": "Check-in",
+        "value": "From 15:00"
+      },
+      {
+        "label": "Check-out",
+        "value": "By 11:00"
+      },
+      {
+        "label": "Minimum stay",
+        "value": "5 nights"
+      },
+      {
+        "label": "Security deposit",
+        "value": "€1,000, refundable"
+      },
+      {
+        "label": "Included",
+        "value": "Housekeeping, linen, pool & garden"
+      },
+      {
+        "label": "Deposit",
+        "value": "30% to confirm"
+      }
+    ],
+    "distances": [
+      {
+        "label": "Canggu beach",
+        "value": "12 minutes"
+      },
+      {
+        "label": "Seminyak",
+        "value": "20 minutes"
+      },
+      {
+        "label": "Denpasar airport",
+        "value": "45 minutes"
+      }
+    ],
+    "coordinates": "8°39′S 115°08′E",
+    "featured": false
+  }
+]

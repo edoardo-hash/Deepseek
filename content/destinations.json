@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "ibiza",
+    "name": "Ibiza",
+    "country": "Spain",
+    "tagline": "The original. Still the one.",
+    "coordinates": "38°54′N 1°25′E",
+    "image": "hero-villa-dusk",
+    "intro": "Ibiza is where Invenio began, and where the portfolio is deepest: whitewashed houses in the hills, long tables under the pines, and a coastline that rewards people who know it.",
+    "body": [
+      "The island divides itself quietly. The north is greener, slower, and full of houses that have been in families for generations. The south and west hold the sunsets, the longer views and the houses built for a season of entertaining. We work across both, and we will tell you honestly which side suits the week you are planning.",
+      "Our team is on the island year-round. That means a property visit before a house is listed, a person who can open a door if a guest locks themselves out, and the kind of restaurant advice that does not come from a search engine."
+    ],
+    "gallery": ["hero-villa-pool", "villa-can-nemo", "es-vedra"],
+    "highlights": [
+      { "title": "The north", "text": "Pine-covered hills, quiet coves and a slower rhythm — our favourite side of the island." },
+      { "title": "The sunsets", "text": "Cala Comte, Es Vedrà and the west coast terraces. Book the table, then take your time." },
+      { "title": "The houses", "text": "The deepest part of the portfolio: country estates, whitewashed villas and modern houses above the sea." }
+    ],
+    "season": "May — October",
+    "note": "High season runs from late June to early September. May, June and September are quieter, warmer than you think, and often better value.",
+    "quote": { "text": "The island rewards people who know it. We have been here long enough to know which road to take.", "author": "Invenio Homes · Ibiza" }
+  },
+  {
+    "slug": "formentera",
+    "name": "Formentera",
+    "country": "Spain",
+    "tagline": "Slow, salt-bleached, unrepeatable.",
+    "coordinates": "38°43′N 1°27′E",
+    "image": "cove",
+    "intro": "A short ferry from Ibiza, and a different century. Formentera is flat, luminous and best explored by bicycle — with long lunches, shallow water and nowhere to be.",
+    "body": [
+      "The island is small enough to know in a week and beautiful enough to return to for twenty years. The south has the famous water; the north has the quieter beaches and the best sunsets. Houses are low, white and built for outdoor living.",
+      "We keep a deliberately small Formentera portfolio: houses we have stayed in, close enough to the water to walk, and staffed by people who live on the island."
+    ],
+    "gallery": ["cove", "es-vedra", "owners-dining"],
+    "highlights": [
+      { "title": "Ses Illetes", "text": "The water everybody photographs, and it really is that colour. Go early, or go in September." },
+      { "title": "The interior", "text": "Fig trees, dry stone walls and white roads — the island at bicycle speed." },
+      { "title": "The table", "text": "Long lunches, fresh fish and a pace that makes dinner at ten feel early." }
+    ],
+    "season": "May — October",
+    "note": "The island is at its best in June and September. August is busy; book ferries and restaurants well ahead.",
+    "quote": { "text": "Formentera is not a destination so much as a decision to slow down.", "author": "Invenio Homes · Formentera" }
+  },
+  {
+    "slug": "mykonos",
+    "name": "Mykonos",
+    "country": "Greece",
+    "tagline": "Whitewash, wind and a very long lunch.",
+    "coordinates": "37°24′N 25°20′E",
+    "image": "mykonos",
+    "intro": "Cycladic white, a blue that looks edited, and a social calendar that runs late. Mykonos is the Aegean at its most polished — and, away from the crowds, still full of quiet corners.",
+    "body": [
+      "The island works on two speeds. The town and the southern beaches are the Mykonos of the magazines; the north and the interior are older, quieter and, for many of our clients, the real reason to come. Our houses sit mostly on the western side, where the sunsets are.",
+      "We are new to Mykonos, and deliberately selective. Every house has been visited, every licence checked, and every owner met. The portfolio will grow slowly."
+    ],
+    "gallery": ["mykonos", "villa-marielle", "interior-lounge"],
+    "highlights": [
+      { "title": "Agios Lazaros", "text": "The view west, the sunsets and a short drive to the best beaches." },
+      { "title": "The town", "text": "Little Venice, the windmills and a maze of lanes best walked without a plan." },
+      { "title": "The table", "text": "Long Greek lunches, toes in the sand, nowhere else to be." }
+    ],
+    "season": "May — October",
+    "note": "June and September are the sweet spot. July and August are for people who want the island at full volume.",
+    "quote": { "text": "Mykonos is best when you stop trying to see all of it.", "author": "Invenio Homes · Mykonos" }
+  },
+  {
+    "slug": "bali",
+    "name": "Bali",
+    "country": "Indonesia",
+    "tagline": "The other side of the world, same standard.",
+    "coordinates": "8°39′S 115°08′E",
+    "image": "bali",
+    "intro": "Rice fields, temple gates and a garden that grows while you watch. Bali is our furthest destination and our most requested long-haul one — a different climate, the same way of looking after a house.",
+    "body": [
+      "The island is larger than it looks and divided by purpose: Canggu and Seminyak for the coast, Ubud for the interior, Uluwatu for the cliffs. We work with a small group of houses in the south and centre, each with a local team and a genuine sense of place.",
+      "The rhythm is different here — earlier mornings, longer afternoons, dinner under the stars. The houses are built for it: open pavilions, garden bathrooms, and staff who make the day feel effortless."
+    ],
+    "gallery": ["bali", "interior-lounge", "owners-dining"],
+    "highlights": [
+      { "title": "Canggu", "text": "Rice fields at the edge of the beach, and a very good coffee scene." },
+      { "title": "Ubud", "text": "The green interior, temple mornings and the sound of water." },
+      { "title": "The houses", "text": "Open pavilions, long pools and staff who have been with the house for years." }
+    ],
+    "season": "April — October",
+    "note": "Dry season runs from April to October. The wet season is greener, quieter and often better value — with short, dramatic afternoon rain.",
+    "quote": { "text": "Bali asks you to stop checking the time. That is the point.", "author": "Invenio Homes · Bali" }
+  }
+]

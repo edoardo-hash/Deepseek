@@ -1,0 +1,16 @@
+{
+  "name": "invenio-homes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Invenio Homes — static site + content studio",
+  "scripts": {
+    "build": "python3 build.py",
+    "start": "node server.mjs",
+    "studio": "node server.mjs",
+    "preview": "python3 -m http.server 4321 --directory dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "seo": {
+    "title": "For owners — Invenio Homes",
+    "description": "Maximum exposure, complete control, and a team on the island. Licensing, photography, pricing and season management for best-of-class villas in Ibiza, Formentera, Mykonos and Bali."
+  },
+  "hero": {
+    "eyebrow": "For owners",
+    "title": "Your property is our *priority*.",
+    "lede": "Maximum exposure in a competitive market, at your fingertips and under your control — fully supported by consummate professionals.",
+    "image": "owners-dining",
+    "imageAlt": "An outdoor dining terrace at an Invenio villa, prepared for guests",
+    "primary": { "label": "Request an appraisal", "href": "/contact/?subject=Property%20appraisal" },
+    "secondary": { "label": "See the platform", "href": "/platform/" }
+  },
+  "intro": {
+    "eyebrow": "The Invenio difference",
+    "title": "One team, from the first conversation to the last departure.",
+    "body": "We are not a listing site. We meet every owner, visit every house and agree the season together — then carry the work that follows: licensing, photography, pricing, calendars, contracts, guests and the small emergencies that happen at eleven at night.",
+    "signature": "Natalia Szpunar · Managing Partner"
+  },
+  "values": {
+    "eyebrow": "Why owners choose us",
+    "title": "Four things we take personally.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Revenue, not just occupancy",
+        "body": "A pricing model built around the house, the week and the client — not a race to the bottom. We protect the rate and the property."
+      },
+      {
+        "num": "02",
+        "title": "The right exposure",
+        "body": "A curated network of agencies and concierges, plus the Invenio platform. Your house is presented to people who will look after it."
+      },
+      {
+        "num": "03",
+        "title": "One person who knows",
+        "body": "A named account manager for your property, on the island, with the authority to make a decision and the knowledge to make the right one."
+      },
+      {
+        "num": "04",
+        "title": "Clear numbers, on time",
+        "body": "Transparent reporting, agreed commissions and payouts that arrive when they should. No surprises at the end of the season."
+      }
+    ]
+  },
+  "service": {
+    "eyebrow": "What we handle",
+    "title": "The whole season, quietly taken care of.",
+    "body": "Most owners do not want another dashboard. They want the house full, the guests happy and the paperwork done. We built the service around that.",
+    "image": "interior-lounge",
+    "imageAlt": "A shaded lounge at an Invenio villa",
+    "list": [
+      "Licence review and tourist registration guidance",
+      "Professional photography, film and floor plans",
+      "Seasonal pricing and calendar management",
+      "Agency and concierge distribution",
+      "Guest communication and concierge support",
+      "Housekeeping, linen and maintenance coordination",
+      "Contracts, deposits and payouts",
+      "A monthly report that actually explains the month"
+    ],
+    "cta": { "label": "Talk to the owners team", "href": "/contact/?subject=Owner%20enquiry" }
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "Four steps, then we get out of the way.",
+    "steps": [
+      { "num": "01", "title": "A conversation", "text": "Tell us about the house, the season and what good looks like. We will be honest about whether we are the right fit." },
+      { "num": "02", "title": "A visit", "text": "We come and see it — the light, the layout, the road, the neighbours. Licensing and paperwork reviewed before anything is promised." },
+      { "num": "03", "title": "The house, presented", "text": "Photography, film and copy that do the property justice. Rates and calendar agreed. The listing goes live to our network." },
+      { "num": "04", "title": "The season", "text": "A named manager, 24-hour support and a monthly report. We handle the details; you enjoy the house when you want it." }
+    ]
+  },
+  "numbers": {
+    "eyebrow": "The portfolio at a glance",
+    "title": "",
+    "note": "Figures from the 2026 season.",
+    "stats": [
+      { "number": 3500, "suffix": "+", "label": "Registered users" },
+      { "number": 900, "suffix": "+", "label": "Approved properties" },
+      { "number": 450, "suffix": "", "label": "Searches a day" }
+    ]
+  },
+  "quote": {
+    "text": "I trust them so much they have the keys to my property. Year after year they defend my product and give me peace of mind.",
+    "name": "Villa Enji",
+    "detail": "Owner · Ibiza"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "The things owners ask us first.",
+    "items": [
+      { "q": "Do I need a tourist licence?", "a": "For a legal short-term rental in the Balearics, yes. We review the property's status before we take it on, explain what is required, and can introduce the specialists we work with. We do not list unlicensed houses." },
+      { "q": "What commission do you charge?", "a": "It depends on the level of service and the season, and we agree it in writing before the listing goes live. There are no hidden fees; the commission covers distribution, account management, guest support and reporting." },
+      { "q": "Can I still use the house myself?", "a": "Of course. You tell us the weeks you want, and we block them before the season is published. Most owners keep several weeks, including the ones that matter most." },
+      { "q": "Who looks after the property?", "a": "Your account manager coordinates housekeeping, linen, pool and garden, and a trusted maintenance team. For larger houses we can arrange a resident house manager." },
+      { "q": "How quickly will I be paid?", "a": "Payouts are made on an agreed schedule, usually within seven days of departure, with a statement that shows every booking, fee and deduction." },
+      { "q": "What if I already work with agencies?", "a": "Good. We can work alongside them. Many owners use Invenio for distribution and support while keeping existing relationships — we will be transparent about where the bookings come from." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Next step",
+    "title": "Let's look at the house together.",
+    "body": "Send us the address, the number of bedrooms and the weeks you would like to keep. We will come back within one working day.",
+    "primary": { "label": "Request an appraisal", "href": "/contact/?subject=Property%20appraisal" },
+    "secondary": { "label": "WhatsApp Natalia", "href": "https://wa.me/34671349592" }
+  }
+}

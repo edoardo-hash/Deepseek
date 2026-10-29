@@ -1,0 +1,8 @@
+node_modules
+.studio
+dist
+screenshots
+.DS_Store
+*.zip
+*.bundle
+*.log

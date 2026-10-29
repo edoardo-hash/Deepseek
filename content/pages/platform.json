@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "The Platform — Invenio Homes",
+    "description": "Realtime availability, accurate rates and a curated, licensed portfolio. The Invenio platform for agents and owners — with a dedicated partner on the other end."
+  },
+  "hero": {
+    "eyebrow": "The platform",
+    "title": "The whole season, on *one screen*.",
+    "lede": "Created by experts, this technology unlocks your property's potential and maximises booking revenue — for agents and owners alike. Realtime availability, accurate rates, and a person who knows the answer.",
+    "primary": {
+      "label": "Request access",
+      "href": "#access"
+    },
+    "secondary": {
+      "label": "Sign in",
+      "href": "#access"
+    },
+    "note": "Live availability · 900+ approved villas · 4 destinations"
+  },
+  "dashboard": {
+    "eyebrow": "The portal",
+    "title": "A live view of the season.",
+    "body": "Search by destination, dates and budget, hold availability and send a branded selection in minutes. Every house is visited, every licence checked.",
+    "caption": "The Invenio Portal — live availability across the portfolio."
+  },
+  "features": {
+    "eyebrow": "What is inside",
+    "title": "Built for the way the work actually happens.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Total freedom",
+        "body": "Search, hold and share availability on your terms, from any device. No call required to see what is free."
+      },
+      {
+        "num": "02",
+        "title": "Client protection",
+        "body": "Guaranteed client data protection and privacy, end to end. Your clients remain yours."
+      },
+      {
+        "num": "03",
+        "title": "First-class technology",
+        "body": "Realtime availability and accurate rates, in a few short clicks — not a PDF that was true last Tuesday."
+      },
+      {
+        "num": "04",
+        "title": "Dedicated account managers",
+        "body": "A named partner who knows the houses and the island, and can make a decision without escalating."
+      },
+      {
+        "num": "05",
+        "title": "White-label",
+        "body": "Your brand on the results you send, with discreet service options for the clients who need them."
+      },
+      {
+        "num": "06",
+        "title": "One contract, one invoice",
+        "body": "Net rates, agreed commissions and a single point of reconciliation at the end of the month."
+      }
+    ]
+  },
+  "agents": {
+    "eyebrow": "For agents",
+    "title": "Find it, hold it, send it. Properly.",
+    "body": "A private workspace for approved agencies and concierges. Your clients, your rates, your brand — with the full portfolio behind you.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Register",
+        "text": "Tell us who you are and the clients you look after. Approval usually takes one working day."
+      },
+      {
+        "num": "02",
+        "title": "Search",
+        "text": "Filter by destination, dates, guests, bedrooms and budget. Real photographs, real rates."
+      },
+      {
+        "num": "03",
+        "title": "Hold",
+        "text": "Hold a house for 72 hours while you confirm with your client. No charge, no drama."
+      },
+      {
+        "num": "04",
+        "title": "Send",
+        "text": "Share a branded selection or a full private offer. We handle the contract and the guest."
+      }
+    ],
+    "cta": {
+      "label": "Apply for access",
+      "href": "/contact/?subject=Agency%20access"
+    }
+  },
+  "owners": {
+    "eyebrow": "For owners",
+    "title": "Your house, visible to the right people.",
+    "body": "A live calendar, a clean rate structure and a monthly report that explains where the bookings came from. Your account manager handles the rest.",
+    "image": "interior-lounge",
+    "imageAlt": "The Invenio portal in use at a villa",
+    "features": [
+      "Realtime calendar and rate control",
+      "Distribution to a curated agency network",
+      "Guest, contract and payment handling",
+      "Monthly performance reporting"
+    ],
+    "cta": {
+      "label": "Owner access",
+      "href": "/owners/"
+    }
+  },
+  "quote": {
+    "text": "With profound market knowledge and an extensive property inventory, Invenio provides clients with the most competitive price points. Their account managers are multilingual and stationed on the island, ensuring swift responses.",
+    "name": "One Fine Stay",
+    "detail": "Agency partner"
+  },
+  "access": {
+    "eyebrow": "Members",
+    "title": "Register or sign in.",
+    "body": "A private workspace for approved agents and owners. Your clients, your rates, your brand.",
+    "primary": {
+      "label": "Request an account",
+      "href": "/contact/?subject=Platform%20access"
+    },
+    "secondary": {
+      "label": "Sign in / register",
+      "href": "#access"
+    },
+    "note": "Access is reviewed manually. We reply within one working day."
+  }
+}

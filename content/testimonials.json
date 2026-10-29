@@ -1,0 +1,53 @@
+{
+  "eyebrow": "In their words",
+  "items": [
+    {
+      "quote": "Their handling of the client's stay and the continuous support was outstanding. Now the clients have decided to come back next year. Thank you, Invenio.",
+      "name": "Villa Azaria",
+      "detail": "Owner · Ibiza",
+      "featured": true
+    },
+    {
+      "quote": "Invenio has a clever pricing model that supports the owners. Quick payments and easy to work with — a real asset in the real estate sector of Ibiza.",
+      "name": "Villa Ivy",
+      "detail": "Owner · Ibiza",
+      "featured": true
+    },
+    {
+      "quote": "I trust them so much they have the keys to my property. Year after year they defend my product and give me peace of mind.",
+      "name": "Villa Enji",
+      "detail": "Owner · Ibiza",
+      "featured": true
+    },
+    {
+      "quote": "With profound market knowledge and an extensive property inventory, Invenio provides clients with the most competitive price points. Their dedicated account managers are multilingual and stationed on the island.",
+      "name": "One Fine Stay",
+      "detail": "Agency partner",
+      "featured": true
+    },
+    {
+      "quote": "A user-friendly platform and flexible commission rates make it easy for clients to use their services. The back office handles every detail efficiently and accurately.",
+      "name": "Black Book Ibiza",
+      "detail": "Agency partner",
+      "featured": false
+    },
+    {
+      "quote": "Smart contracts ensure secure and efficient transactions, while updated calendars keep clients informed. Their market knowledge, large portfolio and competitive pricing are hard to match.",
+      "name": "Oliver's Travels",
+      "detail": "Agency partner",
+      "featured": false
+    },
+    {
+      "quote": "Devoted to excellent customer service, with accessible account managers on the island. The platform is user-friendly and the back office manages every rental aspect effectively.",
+      "name": "White Island Villas",
+      "detail": "Agency partner",
+      "featured": false
+    },
+    {
+      "quote": "Trustworthy and transparent, they keep agencies informed throughout the process. With a comprehensive and reliable service, Invenio is an excellent choice for promoting Ibiza and beyond.",
+      "name": "Eton Villas",
+      "detail": "Agency partner",
+      "featured": false
+    }
+  ]
+}

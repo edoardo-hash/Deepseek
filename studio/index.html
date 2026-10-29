@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Invenio Content Studio</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/studio/studio.css">
+</head>
+<body>
+
+<div class="boot" id="boot">
+  <img src="/assets/img/logo-white.svg" alt="Invenio Homes">
+  <div class="boot-line"><span></span></div>
+</div>
+
+<!-- ---------------------------------------------------------------- login -->
+<section class="login" id="login" hidden>
+  <div class="login-art">
+    <img src="/assets/img/hero-villa-dusk-1600.jpg" alt="">
+    <div class="login-art-veil"></div>
+    <div class="login-art-copy">
+      <img src="/assets/img/logo-white.svg" alt="Invenio Homes" class="login-logo">
+      <p>“The house is the easy part.<br>The details are the work.”</p>
+      <span>Content Studio · Ibiza</span>
+    </div>
+  </div>
+  <div class="login-form-wrap">
+    <div class="login-form">
+      <p class="kicker">Invenio Homes</p>
+      <h1>Welcome back.</h1>
+      <p class="login-lede">Sign in to edit the site. Every change is saved to the content files and published in seconds.</p>
+      <form id="login-form">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required autofocus>
+        <p class="login-error" id="login-error" role="alert"></p>
+        <button class="btn btn--green" type="submit">Enter the Studio <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="login-note">This is a private editing space. The public site is unaffected by failed attempts.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------ app -->
+<div class="app" id="app" hidden>
+  <div class="scrim" id="scrim"></div>
+  <aside class="rail" id="rail">
+    <a class="rail-brand" href="/studio/" aria-label="Invenio Content Studio">
+      <img src="/assets/img/logo-white.svg" alt="Invenio Homes">
+      <span>Content Studio</span>
+    </a>
+    <nav class="rail-nav" id="nav" aria-label="Content"></nav>
+    <div class="rail-foot">
+      <a href="/" target="_blank" rel="noopener">View site <span aria-hidden="true">↗</span></a>
+      <button type="button" id="logout">Sign out</button>
+      <p>Invenio Homes · <span id="rail-version">v1.0</span></p>
+    </div>
+  </aside>
+
+  <main class="workspace">
+    <header class="topbar">
+      <button class="icon-btn only-mobile" type="button" id="drawer" aria-label="Open menu">☰</button>
+      <div class="title-block">
+        <span id="crumb">Content</span>
+        <h1 id="doc-title">Home</h1>
+      </div>
+      <div class="top-actions">
+        <span class="status" id="status"><i></i><span>Published</span></span>
+        <button class="btn btn--ghost" type="button" id="preview-toggle">Preview</button>
+        <button class="btn btn--green" type="button" id="save"><span>Save &amp; publish</span></button>
+      </div>
+    </header>
+
+    <div class="content" id="content">
+      <section class="editor" id="editor" aria-live="polite"></section>
+      <aside class="preview" id="preview-pane">
+        <div class="preview-bar">
+          <span><i></i> Live preview</span>
+          <div>
+            <button type="button" id="preview-refresh" aria-label="Refresh preview">↻</button>
+            <a href="/" target="_blank" rel="noopener" id="preview-open">Open ↗</a>
+          </div>
+        </div>
+        <iframe id="preview-frame" title="Site preview" src="/"></iframe>
+      </aside>
+    </div>
+  </main>
+</div>
+
+<!-- ---------------------------------------------------------------- modal -->
+<div class="modal" id="media-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Choose an image">
+  <div class="modal-card">
+    <header class="modal-head">
+      <div>
+        <p class="kicker">Media library</p>
+        <h2>Choose an image.</h2>
+      </div>
+      <button type="button" class="icon-btn" id="media-close" aria-label="Close">×</button>
+    </header>
+    <div class="modal-tools">
+      <label class="upload-btn">Upload image<input type="file" id="modal-upload" accept="image/jpeg,image/png,image/webp" hidden></label>
+      <span class="modal-hint">JPEG, PNG or WebP · up to 14 MB · resized automatically</span>
+    </div>
+    <div class="media-grid" id="modal-media"></div>
+  </div>
+</div>
+
+<input type="file" id="upload-input" accept="image/jpeg,image/png,image/webp" hidden>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="/studio/app.js"></script>
+</body>
+</html>

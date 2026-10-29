@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "The collection — Invenio Homes",
+    "description": "A carefully selected, fully licensed collection of villas in Ibiza, Formentera, Mykonos and Bali. Every house visited, every licence checked."
+  },
+  "hero": {
+    "eyebrow": "The collection",
+    "title": "Houses we would *keep for ourselves*.",
+    "lede": "A small, deliberately selected portfolio across four islands. Every house has been visited, every licence verified, and every owner met. What you see is what your clients arrive to.",
+    "image": "hero-villa-pool",
+    "imageAlt": "A whitewashed villa and pool in Ibiza"
+  },
+  "note": "Rates are per week, in euros, and include housekeeping, linen and taxes unless stated. Availability is held for 72 hours while you confirm.",
+  "filterLabel": "Filter by island",
+  "empty": "No houses match that filter yet. Try another island, or ask us — the full portfolio is larger than the website."
+}

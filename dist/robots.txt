@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /studio/
+Sitemap: https://deepseek-edos-projects-ab12d8b9.vercel.app/sitemap.xml

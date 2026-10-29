@@ -1,0 +1,157 @@
+{
+  "seo": {
+    "title": "Invenio Homes — A private collection of houses",
+    "description": "A carefully selected, fully licensed collection of villas in Ibiza, Formentera, Mykonos and Bali — with a platform for agents and owners, and a team on the ground."
+  },
+  "hero": {
+    "eyebrow": "Ibiza · Formentera · Mykonos · Bali",
+    "title": "A private collection of houses in the *places we love*.",
+    "lede": "Fully licensed villas, looked after by people who live there — and a platform that makes the whole season feel lighter.",
+    "image": "hero-villa-dusk",
+    "imageAlt": "A whitewashed Invenio villa and pool at dusk in Ibiza",
+    "caption": "Can Nemo, Ibiza — 38°54′N 1°25′E",
+    "primary": {
+      "label": "Explore the collection",
+      "href": "/villas/"
+    },
+    "secondary": {
+      "label": "For owners",
+      "href": "/owners/"
+    },
+    "facts": [
+      {
+        "value": "3,500",
+        "label": "Registered users"
+      },
+      {
+        "value": "900",
+        "label": "Approved properties"
+      },
+      {
+        "value": "450",
+        "label": "Searches a day"
+      }
+    ]
+  },
+  "intro": {
+    "eyebrow": "Who we are",
+    "title": "We are a small, multilingual team with a long memory for good houses — and a firm focus on the relationships that keep them.",
+    "body": "Invenio helps the best agents and villa owners grow their businesses without the noise. We visit every property, check every licence, and put a named person on the other end of the line. The rest is technology doing its quiet work.",
+    "signature": "The Invenio team · Ibiza",
+    "images": [
+      {
+        "image": "interior-lounge",
+        "alt": "A shaded lounge opening onto a pool at an Invenio villa"
+      },
+      {
+        "image": "owners-dining",
+        "alt": "Long outdoor dining table under parasols"
+      }
+    ]
+  },
+  "marquee": {
+    "lineOne": "Ibiza — Formentera — Mykonos — Bali —",
+    "lineTwo": "Licensed houses — On-island people — One standard —"
+  },
+  "collection": {
+    "eyebrow": "The collection",
+    "title": "A carefully selected, fully licensed portfolio.",
+    "body": "Every house is visited, every licence verified, every rate checked. What you see is what your clients arrive to.",
+    "linkLabel": "View the full collection",
+    "linkHref": "/villas/",
+    "villas": [
+      "can-nemo",
+      "the-wave",
+      "villa-marielle",
+      "belantara"
+    ]
+  },
+  "platform": {
+    "eyebrow": "The platform",
+    "title": "Everything the season asks for, on one screen.",
+    "body": "Realtime availability, accurate rates and a curated portfolio — with a dedicated partner on the other end. Search, hold and share a branded selection in minutes.",
+    "image": "interior-lounge",
+    "imageAlt": "The Invenio platform, live from a villa in Ibiza",
+    "features": [
+      {
+        "title": "Realtime availability",
+        "text": "Calendars that tell the truth, across four destinations."
+      },
+      {
+        "title": "Net rates & commissions",
+        "text": "Clear numbers, agreed up front, paid on time."
+      },
+      {
+        "title": "A named partner",
+        "text": "Someone who knows the house, and answers the phone."
+      }
+    ],
+    "cta": {
+      "label": "See the platform",
+      "href": "/platform/"
+    }
+  },
+  "numbers": {
+    "eyebrow": "Invenio in numbers",
+    "title": "A portfolio built slowly, and looked after properly.",
+    "note": "Figures from the 2026 season. Verified annually.",
+    "stats": [
+      {
+        "number": 3500,
+        "suffix": "+",
+        "label": "Registered users"
+      },
+      {
+        "number": 900,
+        "suffix": "+",
+        "label": "Approved properties"
+      },
+      {
+        "number": 450,
+        "suffix": "",
+        "label": "Searches a day"
+      }
+    ]
+  },
+  "destinations": {
+    "eyebrow": "Where we are",
+    "title": "Four islands. One standard.",
+    "body": "We only work where we can be on the ground — with local teams, local knowledge and houses we know by heart.",
+    "linkLabel": "All destinations",
+    "linkHref": "/destinations/"
+  },
+  "owners": {
+    "eyebrow": "For owners",
+    "title": "Your house, in the right hands.",
+    "body": "Maximum exposure in a competitive market, at your fingertips and under your control — fully supported by consummate professionals. From licensing and photography to the last departure of the season, one team carries it.",
+    "bullets": [
+      "A named account manager for your property",
+      "Licensing, photography and listing handled",
+      "Transparent reporting and on-time payouts"
+    ],
+    "image": "owners-dining",
+    "imageAlt": "An outdoor dining terrace prepared for guests",
+    "cta": {
+      "label": "Why owners choose Invenio",
+      "href": "/owners/"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "In their words",
+    "title": "Trusted by the people who know the island best.",
+    "limit": 4
+  },
+  "cta": {
+    "eyebrow": "Start a conversation",
+    "title": "Let's talk about your season.",
+    "body": "Whether you own one house or a portfolio, or you are placing clients across the island, we would like to hear from you.",
+    "primary": {
+      "label": "Email the team",
+      "href": "mailto:find@inveniohomes.com"
+    },
+    "secondary": {
+      "label": "WhatsApp us",
+      "href": "https://wa.me/34671349592"
+    }
+  }
+}

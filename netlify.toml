@@ -1,0 +1,25 @@
+[build]
+  command = "python3 build.py"
+  publish = "dist"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+# Set SITE_URL in Netlify → Site settings → Environment variables:
+#   SITE_URL = https://inveniohomes.com
+#
+# The site is fully static. The Studio is not deployed here; run it locally
+# or on a Node host with a persistent disk (see README).
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    X-Frame-Options = "SAMEORIGIN"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

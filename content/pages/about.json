@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "About — Invenio Homes",
+    "description": "Innovators, pioneers, consummate professionals. The story, standards and people behind Invenio Homes — a private collection of villas in Ibiza, Formentera, Mykonos and Bali."
+  },
+  "hero": {
+    "eyebrow": "About Invenio",
+    "title": "Why are we *best of class*?",
+    "lede": "With a focus on building strong and long-lasting relationships, we help industry professionals and best-of-class villa owners grow and improve their businesses.",
+    "image": "es-vedra",
+    "imageAlt": "Es Vedrà at dusk, Ibiza",
+    "badges": ["Ibiza · Formentera · Mykonos · Bali", "Licence-checked portfolio", "Multilingual team"]
+  },
+  "story": {
+    "eyebrow": "Our story",
+    "title": "Born from a passion for property, and a frustration with how it was being represented.",
+    "paragraphs": [
+      "Invenio Homes was founded by consummate professionals with decades of experience in the real estate rental market. We pride ourselves on a dedication to constantly growing and evolving — to offer the very best, bespoke service in our field.",
+      "Our standards are unwaveringly high. We have high expectations of our team, and we consistently strive to improve our service to owners and agents alike. We take great care to form honest relationships with our partners, based on trust, integrity and the very highest level of care.",
+      "The platform came later, and from the same instinct: the people doing the work deserved better tools. Today it is the quiet engine behind the portfolio — availability, rates, contracts and reporting, in one place."
+    ],
+    "image": "cove",
+    "imageAlt": "A turquoise cove in the Mediterranean",
+    "pullquote": "We take great care to form honest relationships with our partners, based on trust, integrity and the very highest level of care."
+  },
+  "values": {
+    "eyebrow": "What we do",
+    "title": "Four things we hold to.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Technology",
+        "body": "Our custom-built search tool and dashboard has been developed alongside market leaders who understand what is needed to make a company a success — fast results at the most competitive price."
+      },
+      {
+        "num": "02",
+        "title": "Villas",
+        "body": "Every villa is vetted to meet our best-of-class standard and constantly monitored so that quality is never compromised, across the complete portfolio."
+      },
+      {
+        "num": "03",
+        "title": "Account managers",
+        "body": "Each account manager is responsible for a select number of properties and owners — in-depth knowledge, with access to the hundreds of other houses on the dashboard."
+      },
+      {
+        "num": "04",
+        "title": "Partners",
+        "body": "Every destination is supported with local knowledge and service. Your clients are in safe hands — and so are you."
+      }
+    ]
+  },
+  "numbers": {
+    "eyebrow": "The portfolio at a glance",
+    "title": "",
+    "note": "Figures from the 2026 season.",
+    "stats": [
+      { "number": 3500, "suffix": "+", "label": "Registered users" },
+      { "number": 900, "suffix": "+", "label": "Approved properties" },
+      { "number": 450, "suffix": "", "label": "Searches a day" }
+    ]
+  },
+  "offices": {
+    "eyebrow": "Where we are",
+    "title": "On the ground, in each destination.",
+    "items": [
+      { "place": "Ibiza", "role": "Head office", "detail": "Santa Eulària des Riu · year-round team" },
+      { "place": "Formentera", "role": "Local team", "detail": "Property visits and guest support" },
+      { "place": "Mykonos", "role": "Local team", "detail": "Selected houses, visited each season" },
+      { "place": "Bali", "role": "Local team", "detail": "House managers and guest support" }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Work with us",
+    "title": "Interested in joining the team?",
+    "body": "We are always interested in meeting people who know the islands and care about the details. Tell us what you do.",
+    "primary": { "label": "Write to us", "href": "mailto:find@inveniohomes.com?subject=Careers" },
+    "secondary": { "label": "Meet the team", "href": "#team" }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "site": {
+    "name": "Invenio Homes",
+    "shortName": "Invenio",
+    "tagline": "A private collection of houses across the Mediterranean and beyond.",
+    "logo": "/assets/img/logo.svg",
+    "logoLight": "/assets/img/logo-white.svg",
+    "email": "find@inveniohomes.com",
+    "phone": "+34 671 349 592",
+    "phoneHref": "+34671349592",
+    "whatsapp": "34671349592",
+    "address": "Santa Eulària des Riu, Ibiza",
+    "legalName": "Invenio Homes S.L.",
+    "taxId": "B16649519",
+    "instagram": "https://www.instagram.com/InvenioHomes/",
+    "linkedin": "https://www.linkedin.com/company/invenio-homes/",
+    "facebook": "https://www.facebook.com/InvenioHomes",
+    "portalUrl": "/platform/#access",
+    "signinUrl": "/platform/#access",
+    "coordinates": "38°54′N 1°25′E",
+    "formEndpoint": "",
+    "copyright": "© 2026 Invenio Homes. All rights reserved.",
+    "url": "https://deepseek-edos-projects-ab12d8b9.vercel.app"
+  },
+  "nav": [
+    {
+      "label": "Villas",
+      "href": "/villas/"
+    },
+    {
+      "label": "Destinations",
+      "href": "/destinations/"
+    },
+    {
+      "label": "Owners",
+      "href": "/owners/"
+    },
+    {
+      "label": "The Platform",
+      "href": "/platform/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    }
+  ],
+  "footer": {
+    "statement": "A private collection of houses in Ibiza, Formentera, Mykonos and Bali — represented with care, and looked after on the ground.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "The collection",
+            "href": "/villas/"
+          },
+          {
+            "label": "Destinations",
+            "href": "/destinations/"
+          },
+          {
+            "label": "The Platform",
+            "href": "/platform/"
+          },
+          {
+            "label": "For owners",
+            "href": "/owners/"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About Invenio",
+            "href": "/about/"
+          },
+          {
+            "label": "The team",
+            "href": "/about/#team"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Destinations",
+        "links": [
+          {
+            "label": "Ibiza",
+            "href": "/destinations/ibiza/"
+          },
+          {
+            "label": "Formentera",
+            "href": "/destinations/formentera/"
+          },
+          {
+            "label": "Mykonos",
+            "href": "/destinations/mykonos/"
+          },
+          {
+            "label": "Bali",
+            "href": "/destinations/bali/"
+          }
+        ]
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Privacy",
+        "href": "/legal/privacy/"
+      },
+      {
+        "label": "Cookies",
+        "href": "/legal/cookies/"
+      },
+      {
+        "label": "Terms",
+        "href": "/legal/terms/"
+      },
+      {
+        "label": "Photo credits",
+        "href": "/credits/"
+      }
+    ],
+    "photoCredit": "Destination photography: Invenio archive, Unsplash and René Hourdry (CC BY-SA 4.0)."
+  },
+  "seo": {
+    "title": "Invenio Homes — A private collection of houses",
+    "description": "A carefully selected, fully licensed collection of villas in Ibiza, Formentera, Mykonos and Bali — with a platform for agents and owners, and a team on the ground.",
+    "ogImage": "/assets/img/hero-villa-dusk-1600.jpg",
+    "themeColor": "#F2EDE3"
+  }
+}

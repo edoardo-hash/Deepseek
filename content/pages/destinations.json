@@ -1,0 +1,18 @@
+{
+  "seo": {
+    "title": "Destinations — Invenio Homes",
+    "description": "Ibiza, Formentera, Mykonos and Bali. Four islands, one standard — with local teams, licensed houses and the knowledge that only comes from being there."
+  },
+  "hero": {
+    "eyebrow": "Destinations",
+    "title": "Four islands. *One standard*.",
+    "lede": "We only work where we can be on the ground. That means local teams, houses we know by heart, and advice that does not come from a search engine.",
+    "image": "bali",
+    "imageAlt": "A temple on the water in Bali at sunset"
+  },
+  "intro": {
+    "eyebrow": "How we choose",
+    "title": "A destination earns its place.",
+    "body": "A place has to offer more than a beach and an airport. We look for a genuine sense of place, a team we trust and houses that are worth the journey — then we spend a season learning the details before we list a single property."
+  }
+}

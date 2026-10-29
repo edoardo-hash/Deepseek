@@ -1,0 +1,38 @@
+{
+  "eyebrow": "The team",
+  "title": "A highly dedicated, multilingual team.",
+  "body": "A named person for every owner and every agency — people who know the houses, the island and the answer to most questions before you ask it.",
+  "groups": [
+    {
+      "title": "Leadership",
+      "people": [
+        { "name": "Nick Thompson", "role": "Founder & CEO", "initials": "NT" },
+        { "name": "Matt McCormick", "role": "Founder & Partner", "initials": "MM" },
+        { "name": "Edoardo Marvaso", "role": "Managing Director", "initials": "EM" },
+        { "name": "Natalia Szpunar", "role": "Managing Partner", "initials": "NS" }
+      ]
+    },
+    {
+      "title": "Account management",
+      "people": [
+        { "name": "David Ramiro", "role": "Senior Account Manager", "initials": "DR" },
+        { "name": "Cris Rafio", "role": "Senior Account Manager", "initials": "CR" },
+        { "name": "Matthew Bartley", "role": "Sales Account Manager", "initials": "MB" },
+        { "name": "Damir Butkovic", "role": "Senior Account Manager", "initials": "DB" },
+        { "name": "Merel Poots", "role": "Account Manager", "initials": "MP" },
+        { "name": "Scott Burgess", "role": "Account Manager", "initials": "SB" },
+        { "name": "Rebecca Butler", "role": "Account Manager", "initials": "RB" },
+        { "name": "Jose Ricco", "role": "Account Manager", "initials": "JR" }
+      ]
+    },
+    {
+      "title": "Back office",
+      "people": [
+        { "name": "Reeta Behm", "role": "Commercial Director", "initials": "RB" },
+        { "name": "Sheila Orozco", "role": "Administration Manager (Finance)", "initials": "SO" },
+        { "name": "Richard Peters", "role": "Operations Manager", "initials": "RP" }
+      ]
+    }
+  ],
+  "email": "find@inveniohomes.com"
+}
