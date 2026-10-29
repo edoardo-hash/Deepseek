@@ -1,20 +1,22 @@
 /* =========================================================================
-   Invenio Homes — Ses Salines, in motion
-   A single design system for the whole site.
+   Invenio Homes — Calacatta
+   Chalk white, hairline rules, photographs dissolving into paper.
+   One design system for the whole site; the skin lives in the tokens
+   and in the "Calacatta" block at the end of the file.
    ========================================================================= */
 
 /* ---------- Fonts ---------- */
 @font-face {
-  font-family: "Newsreader";
-  src: url("/assets/fonts/newsreader-300.woff2") format("woff2");
-  font-weight: 200 800;
+  font-family: "Fraunces";
+  src: url("/assets/fonts/fraunces-var.woff2") format("woff2");
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Newsreader";
-  src: url("/assets/fonts/newsreader-300-italic.woff2") format("woff2");
-  font-weight: 200 800;
+  font-family: "Fraunces";
+  src: url("/assets/fonts/fraunces-var-italic.woff2") format("woff2");
+  font-weight: 100 900;
   font-style: italic;
   font-display: swap;
 }
@@ -28,22 +30,23 @@
 
 /* ---------- Tokens ---------- */
 :root {
-  --paper: #f2ede3;
-  --paper-2: #e9e2d4;
-  --paper-3: #ded4c1;
-  --cream: #fbf8f1;
-  --ink: #1c221d;
-  --ink-2: #3b453c;
-  --muted: #6d7267;
-  --green: #244635;
-  --green-deep: #11251a;
-  --green-soft: #3b5a46;
-  --gold: #b08a55;
-  --gold-soft: #d2b78f;
-  --line: rgba(28, 34, 29, 0.16);
-  --line-soft: rgba(28, 34, 29, 0.09);
-  --line-light: rgba(242, 237, 227, 0.22);
-  --display: "Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  /* Calacatta: chalk, bone, ink and one dark green. No gold. */
+  --paper: #f4f3ee;
+  --paper-2: #ebe9e2;
+  --paper-3: #dedcd3;
+  --cream: #fbfaf6;
+  --ink: #17201f;
+  --ink-2: #3f4947;
+  --muted: #5c6662;
+  --green: #0e6b62;
+  --green-deep: #17201f;
+  --green-soft: #0a544e;
+  --gold: #0e6b62;
+  --gold-soft: #9fc9c2;
+  --line: rgba(23, 32, 31, 0.16);
+  --line-soft: rgba(23, 32, 31, 0.09);
+  --line-light: rgba(244, 243, 238, 0.22);
+  --display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --sans: "Hanken Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --max: 1380px;
   --gutter: clamp(20px, 4.2vw, 68px);
@@ -170,7 +173,7 @@ button {
   font-weight: 300;
   line-height: 0.98;
   letter-spacing: -0.028em;
-  font-variation-settings: "opsz" 40;
+  font-variation-settings: "opsz" 96, "SOFT" 30;
   text-wrap: balance;
 }
 h1.display,
@@ -3946,7 +3949,258 @@ body.is-loaded .loader {
   }
 }
 
-/* ---------- Compare switch (temporary: A/B between site builds) ---------- */
+/* =========================================================================
+   Calacatta — skin overrides
+   Light hero that dissolves into paper, ink text over photographs,
+   hairline rules, no grain, no gold. Buttons in ink or dark green.
+   ========================================================================= */
+
+/* No film grain: the page is quiet paper. */
+body::after {
+  display: none;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+:focus-visible {
+  outline-color: var(--green);
+}
+
+/* Photographs: a touch desaturated, so the paper does the talking. */
+.hero-media img,
+.villa-hero-media img,
+.intro-img img,
+.split-media img,
+.villa-card-img,
+.coll-thumb img,
+.dest-img,
+.gallery-item img,
+.page-hero-media img,
+.page-hero-band img,
+.contact-image img {
+  filter: saturate(0.92);
+}
+
+/* ---- Loader: a chalk curtain, ink logo ---- */
+.loader {
+  background: var(--paper);
+}
+.loader-inner img {
+  filter: none;
+  opacity: 1;
+}
+.loader-meta {
+  color: var(--green);
+}
+
+/* ---- Dark heroes (platform) keep the inverted header from the base system ---- */
+.site-head.is-solid {
+  background: rgba(244, 243, 238, 0.92);
+}
+
+/* ---- Home hero: the photograph dissolves into the paper ---- */
+.hero {
+  background: var(--paper);
+  color: var(--ink);
+  min-height: min(100svh, 920px);
+}
+.hero-media {
+  inset: 0 0 auto;
+  height: 78%;
+}
+.hero-media img {
+  object-position: center 40%;
+}
+.hero-grade {
+  background:
+    linear-gradient(to top,
+      #f4f3ee 0%,
+      rgba(244, 243, 238, 0.97) 14%,
+      rgba(244, 243, 238, 0.74) 32%,
+      rgba(244, 243, 238, 0.22) 58%,
+      rgba(244, 243, 238, 0) 80%),
+    linear-gradient(180deg, rgba(244, 243, 238, 0.28) 0%, rgba(244, 243, 238, 0) 26%);
+}
+.hero-caption {
+  color: var(--muted);
+}
+.hero .eyebrow--light {
+  color: var(--green-soft);
+}
+.hero .display--hero {
+  color: var(--ink);
+  max-width: 17ch;
+  font-size: clamp(42px, 6.4vw, 104px);
+  line-height: 0.96;
+}
+.hero .display--hero em {
+  color: var(--green);
+}
+.hero-lede {
+  color: var(--ink-2);
+}
+.hero .btn--paper {
+  --btn-bg: var(--ink);
+  --btn-fg: var(--paper);
+  --btn-bd: var(--ink);
+}
+.hero .btn--paper:hover {
+  --btn-bg: var(--green);
+  --btn-bd: var(--green);
+}
+.hero .btn--ghost.btn--light {
+  --btn-fg: var(--ink);
+  --btn-bd: var(--line);
+}
+.hero .btn--ghost.btn--light:hover {
+  --btn-bg: var(--ink);
+  --btn-fg: var(--paper);
+  --btn-bd: var(--ink);
+}
+.hero-foot {
+  border-top: 1px solid var(--line);
+  background: transparent;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.hero-fact {
+  border-right-color: var(--line-soft);
+}
+.hero-fact-num {
+  color: var(--ink);
+}
+.hero-fact-label {
+  color: var(--muted);
+}
+.scroll-cue {
+  color: var(--muted);
+}
+.scroll-cue span {
+  background: var(--line);
+}
+.scroll-cue span::after {
+  background: var(--green);
+}
+
+/* ---- Villa and destination heroes: same dissolve ---- */
+.villa-hero {
+  background: var(--paper);
+  color: var(--ink);
+}
+.villa-hero-media {
+  inset: 0 0 auto;
+  height: 82%;
+}
+.villa-hero-grade {
+  background:
+    linear-gradient(to top,
+      #f4f3ee 0%,
+      rgba(244, 243, 238, 0.97) 12%,
+      rgba(244, 243, 238, 0.7) 30%,
+      rgba(244, 243, 238, 0.16) 56%,
+      rgba(244, 243, 238, 0) 78%),
+    linear-gradient(180deg, rgba(244, 243, 238, 0.26) 0%, rgba(244, 243, 238, 0) 24%);
+}
+.villa-hero-copy .crumbs {
+  color: var(--muted);
+}
+.villa-hero-copy .crumbs [aria-current="page"],
+.villa-hero-copy .crumbs a:hover {
+  color: var(--ink);
+}
+.villa-hero .eyebrow--light {
+  color: var(--green-soft);
+}
+.villa-hero .display--hero {
+  color: var(--ink);
+}
+.villa-hero-lede {
+  color: var(--ink-2);
+}
+.villa-hero .btn--paper {
+  --btn-bg: var(--ink);
+  --btn-fg: var(--paper);
+  --btn-bd: var(--ink);
+}
+.villa-hero .btn--ghost.btn--light {
+  --btn-fg: var(--ink);
+  --btn-bd: var(--line);
+}
+.villa-hero .btn--ghost.btn--light:hover {
+  --btn-bg: var(--ink);
+  --btn-fg: var(--paper);
+  --btn-bd: var(--ink);
+}
+.villa-hero .hero-badges .tag,
+.villa-hero .media-badge {
+  background: var(--cream);
+  color: var(--ink);
+  border: 1px solid var(--line-soft);
+}
+.facts-bar {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* ---- Dark bands: ink, not green ---- */
+.stats-band {
+  background: var(--ink);
+}
+.stats-band::after {
+  border-color: rgba(244, 243, 238, 0.07);
+}
+.stats-band .eyebrow--light,
+.cta-band .eyebrow--light,
+.platform-hero .eyebrow--light,
+.site-foot .eyebrow--light {
+  color: rgba(244, 243, 238, 0.6);
+}
+
+/* ---- Cards: hairline rule, index, licence number visible at a glance ---- */
+.villa-card-body {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+.villa-card-index {
+  mix-blend-mode: normal;
+  color: var(--cream);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
+}
+.tag {
+  background: rgba(251, 250, 246, 0.92);
+  border: 1px solid var(--line-soft);
+  letter-spacing: 0.2em;
+}
+.villa-card h3 {
+  font-weight: 300;
+}
+.villa-lic {
+  color: var(--green-soft);
+  letter-spacing: 0.12em;
+}
+.dest-card {
+  border-top: 1px solid var(--line);
+}
+
+/* ---- Forms, buttons, small type ---- */
+.btn--ink:hover {
+  --btn-bg: var(--green);
+  --btn-bd: var(--green);
+}
+.eyebrow {
+  color: var(--green-soft);
+}
+.signature {
+  color: var(--green-soft);
+}
+.quote-mark {
+  color: var(--green);
+}
+
+/* ---------- Compare switch (temporary: A/B/C between site builds) ---------- */
 .compare {
   position: fixed;
   right: 16px;
@@ -3957,20 +4211,17 @@ body.is-loaded .loader {
   gap: 2px;
   padding: 4px;
   border-radius: 999px;
-  background: rgba(17, 37, 26, 0.92);
+  background: rgba(23, 32, 31, 0.92);
   color: var(--cream);
   font-family: var(--sans);
   font-size: 12px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
-.compare-label {
-  padding: 0 10px 0 12px;
-  opacity: 0.6;
-}
+.compare-label { padding: 0 10px 0 12px; opacity: 0.6; }
 .compare-opt {
   padding: 8px 14px;
   border-radius: 999px;
@@ -3979,18 +4230,16 @@ body.is-loaded .loader {
   white-space: nowrap;
   transition: background 0.2s var(--ease), color 0.2s var(--ease);
 }
-.compare-opt.is-on {
-  background: var(--cream);
-  color: var(--green-deep);
-}
-a.compare-opt:hover,
-a.compare-opt:focus-visible {
-  background: rgba(251, 248, 241, 0.16);
-  outline: none;
-}
-@media (max-width: 480px) {
-  .compare-label { display: none; }
-}
-@media print {
-  .compare { display: none; }
+.compare-opt.is-on { background: var(--cream); color: var(--ink); }
+a.compare-opt:hover, a.compare-opt:focus-visible { background: rgba(251, 250, 246, 0.16); outline: none; }
+@media (max-width: 480px) { .compare-label { display: none; } }
+@media print { .compare { display: none; } }
+
+/* Light heroes: the header sits on chalk from the first pixel. */
+.head--over-light {
+  color: var(--ink);
+  background: rgba(244, 243, 238, 0.9);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 var(--line-soft);
 }

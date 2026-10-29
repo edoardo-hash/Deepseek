@@ -221,12 +221,14 @@ def header(active: str = "", over: bool = False) -> str:
         is_active = href == active or (href != "/" and active.startswith(href))
         current = ' aria-current="page"' if is_active else ""
         nav_items.append(f'<a href="{e(href)}"{current}>{e(item["label"])}</a>')
-    over_cls = " head--over" if over else ""
+    dark = over is True
+    over_cls = " head--over" if dark else (" head--over-light" if over else "")
+    light_logo = SITE['logoLight'] if dark else SITE['logo']
     return f"""
 <header class="site-head{over_cls}" data-head>
   <div class="head-inner">
     <a class="brand" href="/" aria-label="Invenio Homes — home">
-      <img class="brand-logo" src="{e(SITE['logoLight'] if over else SITE['logo'])}" alt="Invenio Homes" data-logo-light="{e(SITE['logoLight'])}" data-logo-dark="{e(SITE['logo'])}" width="150" height="37">
+      <img class="brand-logo" src="{e(light_logo)}" alt="Invenio Homes" data-logo-light="{e(light_logo)}" data-logo-dark="{e(SITE['logo'])}" width="150" height="37">
     </a>
     <nav class="nav-desktop" aria-label="Primary">
       {''.join(nav_items)}
@@ -321,25 +323,29 @@ def footer() -> str:
 
 
 def compare_switch() -> str:
-    """Floating switch to jump to the same page on the other site build."""
+    """Floating switch to the same page on the other site builds (temporary)."""
     cfg = SETTINGS.get("compare") or {}
-    if not cfg.get("enabled") or not cfg.get("otherUrl"):
+    sites = cfg.get("sites") or []
+    if not cfg.get("enabled") or not sites:
         return ""
-    other = str(cfg["otherUrl"]).rstrip("/")
+    opts = "".join(
+        f'<a class="compare-opt" href="{e(str(sv["url"]).rstrip("/"))}/" data-compare-link data-no-transition>{e(sv["label"])}</a>'
+        for sv in sites
+    )
+    payload = json.dumps([{"url": str(sv["url"]).rstrip("/"), "map": sv.get("map", "same")} for sv in sites])
     return f"""<div class="compare" data-compare aria-label="Compare site versions" role="group">
   <span class="compare-label">Compare</span>
+  {opts}
   <span class="compare-opt is-on" aria-current="true">{e(cfg.get("thisLabel", "This site"))}</span>
-  <a class="compare-opt" href="{e(other)}/" data-compare-link data-no-transition>{e(cfg.get("otherLabel", "Other site"))}</a>
 </div>
 <script>
 (function () {{
-  var a = document.querySelector("[data-compare-link]");
-  if (!a) return;
-  var base = {json.dumps(other)};
-  // Pages on this site -> matching page on the other site (unmatched -> its home).
-  var map = {{ "/about/": "/about", "/owners/": "/owners", "/platform/": "/the-platform" }};
-  var p = location.pathname, target = map[p];
-  a.href = base + (target || "/");
+  var sites = {payload}, links = document.querySelectorAll("[data-compare-link]"), p = location.pathname;
+  for (var i = 0; i < links.length && i < sites.length; i++) {{
+    var s = sites[i], t;
+    if (s.map === "same") t = p; else t = s.map[p] || "/";
+    links[i].href = s.url + t;
+  }}
 }})();
 </script>"""
 
@@ -355,7 +361,7 @@ def page(
     og_image: str = "",
     preload: str = "",
     head_extra: str = "",
-    over_header: bool = False,
+    over_header: "bool | str" = False,
 ) -> str:
     if not og_image:
         og_image = SETTINGS["seo"]["ogImage"]
@@ -720,7 +726,7 @@ def build_home() -> str:
         canonical="/",
         og_image=SETTINGS["seo"]["ogImage"],
         preload=hero["image"],
-        over_header=True,
+        over_header="light",
         head_extra=f'<meta name="robots" content="index, follow, max-image-preview:large">',
     )
 
@@ -911,7 +917,7 @@ def build_villa(v) -> str:
         canonical=f"/villas/{v['slug']}/",
         og_image=src(v["hero"], 1600),
         preload=v["hero"],
-        over_header=True,
+        over_header="light",
     )
 
 
@@ -1054,7 +1060,7 @@ def build_destination(d) -> str:
         canonical=f"/destinations/{d['slug']}/",
         og_image=src(d["image"], 1600),
         preload=d["image"],
-        over_header=True,
+        over_header="light",
     )
 
 
@@ -1461,6 +1467,7 @@ def build_contact() -> str:
           <dt>{e(p['details']['emailLabel'])}</dt><dd><a href="mailto:{e(SITE['email'])}">{e(SITE['email'])}</a></dd>
           <dt>{e(p['details']['phoneLabel'])}</dt><dd><a href="tel:{e(SITE['phoneHref'])}">{e(SITE['phone'])}</a></dd>
           <dt>{e(p['details']['whatsappLabel'])}</dt><dd><a href="https://wa.me/{e(SITE['whatsapp'])}" target="_blank" rel="noopener">Message us</a></dd>
+          <dt>{e(p['details'].get('aiLabel', 'AI concierge'))}</dt><dd><a href="{e(SITE.get('telegram', '#'))}" target="_blank" rel="noopener">{e(p['details'].get('aiText', 'Ask our concierge on Telegram'))}</a></dd>
           <dt>{e(p['details']['addressLabel'])}</dt><dd>{e(SITE['address'])}</dd>
           <dt>{e(p['details']['hoursLabel'])}</dt><dd>{e(p['details']['hours'])}</dd>
         </dl>
@@ -1551,7 +1558,7 @@ def build_credits() -> str:
       </section>
       <section id="type">
         <h2>Type</h2>
-        <p><a href="https://fonts.google.com/specimen/Newsreader" target="_blank" rel="noopener">Newsreader</a> by Production Type, and <a href="https://fonts.google.com/specimen/Hanken+Grotesk" target="_blank" rel="noopener">Hanken Grotesk</a> by Alfredo Marco Pradil — both under the SIL Open Font License. Self-hosted here so the site does not call Google Fonts.</p>
+        <p><a href="https://fonts.google.com/specimen/Fraunces" target="_blank" rel="noopener">Fraunces</a> by Undercase Type, and <a href="https://fonts.google.com/specimen/Hanken+Grotesk" target="_blank" rel="noopener">Hanken Grotesk</a> by Alfredo Marco Pradil — both under the SIL Open Font License. Self-hosted here so the site does not call Google Fonts.</p>
       </section>
       <section id="code">
         <h2>Code</h2>

@@ -19,14 +19,24 @@
     "addressLabel": "Office",
     "hoursLabel": "Hours",
     "hours": "Monday to Friday, 09:00 – 18:00 CET. In season, the on-island team is available 24 hours for guests.",
-    "note": "For guest emergencies, please use the number in your arrival pack."
+    "note": "For guest emergencies, please use the number in your arrival pack.",
+    "aiLabel": "AI concierge",
+    "aiText": "Ask our concierge on Telegram"
   },
   "form": {
     "title": "Send a note.",
     "body": "The more you can tell us — dates, destination, number of guests — the more useful our first reply will be.",
     "submitLabel": "Send enquiry",
     "note": "By sending this form you agree to be contacted about your enquiry. We do not add you to a mailing list.",
-    "subjects": ["Villa enquiry", "Property appraisal", "Agency access", "Platform access", "Press", "Careers", "Something else"],
+    "subjects": [
+      "Villa enquiry",
+      "Property appraisal",
+      "Agency access",
+      "Platform access",
+      "Press",
+      "Careers",
+      "Something else"
+    ],
     "success": "Thank you — your email is ready to send."
   },
   "image": "owners-dining",

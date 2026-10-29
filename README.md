@@ -1,8 +1,18 @@
-# Invenio Homes
+# Invenio Homes — Calacatta
 
-**Live:** <https://deepseek-one-phi.vercel.app/>  
-**GitHub:** <https://github.com/edoardo-hash/Deepseek>  
+**Live:** <https://invenio-calacatta.vercel.app/>  
+**GitHub:** <https://github.com/edoardo-hash/invenio-calacatta>  
 **Studio:** runs locally (see below)
+
+The third version of the new site. Same engine as the Deepseek build (static, content-driven,
+with the Content Studio), reskinned as **Calacatta** — the look that won the October 2026 skins vote:
+chalk-white paper, hairline rules, Fraunces headlines, photographs that dissolve into the page,
+buttons in ink or dark green only (no gold, no grain). Licence numbers are visible on every licensed
+house, the official office address is used throughout, and the contact page links the AI concierge
+on Telegram next to WhatsApp.
+
+The skin lives in the tokens at the top of `assets/css/site.css` and in the "Calacatta" block at the
+end of the same file; everything else is shared with the Deepseek build.
 
 A complete website for Invenio Homes, rebuilt as a **content-driven static site** with the cinematic scroll behaviour of the current site — and a small, purpose-built **Content Studio** instead of WordPress.
 

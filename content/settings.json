@@ -9,7 +9,7 @@
     "phone": "+34 671 349 592",
     "phoneHref": "+34671349592",
     "whatsapp": "34671349592",
-    "address": "Santa Eulària des Riu, Ibiza",
+    "address": "C. San Lorenzo y Molins de Rei, 12 · Santa Eulària des Riu, Ibiza",
     "legalName": "Invenio Homes S.L.",
     "taxId": "B16649519",
     "instagram": "https://www.instagram.com/InvenioHomes/",
@@ -20,7 +20,8 @@
     "coordinates": "38°54′N 1°25′E",
     "formEndpoint": "",
     "copyright": "© 2026 Invenio Homes. All rights reserved.",
-    "url": "https://deepseek-one-phi.vercel.app"
+    "url": "https://invenio-calacatta.vercel.app",
+    "telegram": "https://t.me/Invenio_Messiah_bot"
   },
   "nav": [
     {
@@ -131,12 +132,26 @@
     "title": "Invenio Homes — A private collection of houses",
     "description": "A carefully selected, fully licensed collection of villas in Ibiza, Formentera, Mykonos and Bali — with a platform for agents and owners, and a team on the ground.",
     "ogImage": "/assets/img/hero-villa-dusk-1600.jpg",
-    "themeColor": "#F2EDE3"
+    "themeColor": "#F4F3EE"
   },
   "compare": {
     "enabled": true,
-    "thisLabel": "Deepseek",
-    "otherLabel": "Web",
-    "otherUrl": "https://inveniohomes-web.vercel.app"
+    "thisLabel": "Calacatta",
+    "sites": [
+      {
+        "label": "Deepseek",
+        "url": "https://deepseek-one-phi.vercel.app",
+        "map": "same"
+      },
+      {
+        "label": "Web",
+        "url": "https://inveniohomes-web.vercel.app",
+        "map": {
+          "/about/": "/about",
+          "/owners/": "/owners",
+          "/platform/": "/the-platform"
+        }
+      }
+    ]
   }
 }

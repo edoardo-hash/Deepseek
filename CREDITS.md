@@ -11,7 +11,7 @@ If you add photography, add the credit here and on `/credits/`.
 
 ## Type
 
-- **Newsreader** — Production Type, SIL Open Font License.
+- **Fraunces** — Undercase Type, SIL Open Font License.
 - **Hanken Grotesk** — Alfredo Marco Pradil, SIL Open Font License.
 
 Both are self-hosted in `assets/fonts/`.
