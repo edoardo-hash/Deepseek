@@ -299,7 +299,6 @@
   // Pages on this site -> matching page on the other site (unmatched -> its home).
   var map = { "/about/": "/about", "/owners/": "/owners", "/platform/": "/the-platform" };
   var p = location.pathname, target = map[p];
-  if (!target && /^\/destinations\/[a-z-]+\/$/.test(p)) target = p.replace(/\/$/, "");
   a.href = base + (target || "/");
 })();
 </script>
